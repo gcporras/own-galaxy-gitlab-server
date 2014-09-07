@@ -1,0 +1,13 @@
+# file: hosts_inventory
+
+[gitlab-local]
+192.168.33.17
+
+# group 'multi' with all servers
+[multi:children]
+gitlab-local
+
+# variables that will be applied to all servers
+[multi:vars]
+ansible_ssh_user=vagrant
+ansible_ssh_private_key_file=~/.vagrant.d/insecure_private_key

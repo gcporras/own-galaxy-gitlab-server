@@ -1,0 +1,7 @@
+---
+# file: site.yml
+- hosts: gitlab-local
+  roles:
+  - role: "geerlingguy.gitlab"
+    sudo: yes
+    gitlab_external_url: "https://gitlab.local/"
