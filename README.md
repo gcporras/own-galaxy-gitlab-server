@@ -11,5 +11,12 @@ Presentation Title:  Create your Orchestration Galaxy With Ansible
 - [vagrant-hostupdater](https://github.com/cogitatio/vagrant-hostsupdater) plugin
 - [VirtualBox](https://www.virtualbox.org)
 
+## Instructions
+
+Create and configure Gitlab Service:
+
+```shell
+> vagrant up
+```
 
 
